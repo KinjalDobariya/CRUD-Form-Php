@@ -1,0 +1,281 @@
+body
+{
+  font-family: Roboto !important;
+  background-color: #15191e !important;
+}
+.section
+{
+    height: 100%;
+} 
+
+.section.kf-section-no-margin {
+  padding: 0;
+  background: #1e2429;
+}
+.kf-reservation {
+  overflow: hidden;
+}
+.kf-reservation-form {
+  margin: 40px auto;
+  padding: 80px 45px 45px 45px;
+  position: relative;
+  max-width: 770px;
+  background: #090c0f;
+  border-top: 3px solid #b99272;
+}
+.kf-field {
+  position: relative;
+  margin-bottom: 20px;
+  color: #000 !important;
+}
+input[type=address], input[type=date], input[type=email],
+input[type=number], input[type=password], input[type=search], 
+input[type=tel], input[type=text], textarea {
+  position: relative;
+  padding: 0 20px;
+  display: block;
+  width: 100%;
+  height: 60px;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #fff!important;
+  resize: none;
+  outline: 0;
+  font-weight: 500;
+  background: 0 0;
+  border: 1px solid #21282f;
+  border-radius: 5px;
+  transition: all .7s cubic-bezier(.3, 0, .3, 1);
+}
+select
+{
+    box-shadow: none;
+    height: 60px;
+    padding: 0 20px;
+    position: relative;
+    width: 100%;
+    appearance: none;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #21282f;
+    border-radius: 5px;
+
+}
+option
+{
+  background-color: #090c0f;
+}
+.in
+{
+  
+    position: absolute;
+    right: 20px;
+    top: 35%;
+    font-size: 22px;
+    line-height: 60px;
+    color: #fff;
+    pointer-events: none;
+}
+.inn2
+{
+  
+  font-size: 17px;
+}
+.inn
+{
+  font-size: 14px;
+  top: 37%;
+}
+option {
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+a.kf-btn .btn {
+  padding: 0 30px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: .03em;
+  height: 50px;
+  line-height: 48px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #b99272;
+  border: none;
+  border-radius: 4px;
+  outline: 0 !important;
+}
+a.btn:hover {
+  color: #b99272;
+}
+.kf-titles {
+  width: 100%;
+}
+.kf-subtitle {
+  margin: 0 0 10px 0;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  color: #b99272;
+}
+.kf-title 
+{
+  margin-bottom: 30px;
+}
+.kf-title {
+  font-size: 42px;
+  font-family: Oswald;
+  color: #fff;
+  font-weight: 400;
+}
+.form_in
+{
+  scale: 1.4;
+}
+.section2
+{
+    height: 100vh;
+    background: #12161b;
+} 
+.margin
+{
+  margin-top: 150px !important;
+  max-width: 470px;
+ 
+}
+.link
+{
+  text-decoration: none !important;
+  color: #6b7780;
+}
+.marginz
+{
+
+  margin-top: 80px !important;
+  max-width: 570px;
+}
+
+/* ============================================ header ==============================================*/
+.nav_img img {
+  width: 50%;
+}
+.navs {
+  background-color: #0E1317;
+  padding: 20px 30px !important;
+  position: relative;
+  position: sticky !important;
+  top: 0;
+  left: 0;
+  z-index: 6;
+}
+.nav-link {
+  color: #fff !important;
+  font-size: 15px !important;
+  margin-left: 15px;
+  margin-right: 30px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav-link>a {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  text-decoration: none;
+  font-weight: 500;
+}
+.about-nav-link
+{
+  margin-right: 0;
+}
+.rx_icon {
+  font-size: 22px;
+  position: absolute;
+}
+
+.nav-link:hover {
+  color: #b99272 !important;
+  transition: .5s;
+}
+
+/* ======================================================top_header================================================================== */
+
+.kf-topline {
+  padding: 10px 30px;
+  background: #090c0f;
+}
+
+.kf-h-group {
+  font-size: 14px;
+  color: #ced2d5;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.kf-h-group em {
+  color: #b99272;
+  font-style: normal;
+}
+
+.kf-h-group .i {
+
+  color: #b99272;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.kf-h-group .ii {
+
+  color: #b99272;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.kf-h-social {
+  display: inline-block;
+  font-family: Oswald;
+  font-size: 15px;
+  text-align: center;
+}
+
+.kf-h-social a {
+  color: #fff;
+  margin: 0 8px;
+}
+
+.social_icon {
+  font-size: 16px;
+}
+
+.social_icon1 {
+  font-size: 17px;
+}
+/* ==============================================================top header end========================================================================== */
+h1{
+  text-align: center;
+  margin-top: 20px !important;
+  color: #b99272;
+}
+.icon
+{
+  color: #6b7780;
+  font-size: 22px;
+}
